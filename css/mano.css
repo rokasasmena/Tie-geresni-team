@@ -1,3 +1,27 @@
 body {
-    background-color: black;
+    background-color: wheat;
+}
+
+#grid {
+    display: grid;
+    grid-template-areas: 'A A A'
+                         'B C D'
+                         'E E E'
+;
+}
+
+.grid_item_1{
+    grid_area:A;
+}
+.grid_item_2 {
+    grid_area: B;
+}
+.grid_item_3 {
+    grid_area: C;
+}
+.grid_item_4
+    grid_area:D;
+.grid_item_5
+    grid_area:E;
+
 }
