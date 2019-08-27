@@ -4,24 +4,51 @@ body {
 
 #grid {
     display: grid;
-    grid-template-areas: 'A A A'
-                         'B C D'
-                         'E E E'
-;
+    grid-template-areas: 'A A A' 'B C D' 'E E E';
 }
 
-.grid_item_1{
-    grid_area:A;
+.grid_item_1 {
+    grid_area: A;
 }
+
 .grid_item_2 {
     grid_area: B;
 }
+
 .grid_item_3 {
     grid_area: C;
 }
-.grid_item_4
-    grid_area:D;
-.grid_item_5
-    grid_area:E;
 
+.grid_item_4 {
+    grid_area: D;
+}
+
+.grid_item_5 {
+    grid_area: E;
+}
+
+@keyframes fonospalva {
+    0% {
+        background-color: deepskyblue;
+    }
+    25% {
+        background-color: aquamarine;
+    }
+    50% {
+        background-color: blue;
+    }
+    75% {
+        background-color: cornflowerblue;
+    }
+    100% {
+        background-color: deepskyblue;
+    }
+
+}
+
+body {
+    background-color: red;
+    animation-name: fonospalva;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
