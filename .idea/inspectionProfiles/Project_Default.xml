@@ -7,9 +7,13 @@
       <option name="myIgnoreVendorSpecificProperties" value="false" />
       <option name="myCustomPropertiesList">
         <value>
-          <list size="2">
+          <list size="6">
             <item index="0" class="java.lang.String" itemvalue="grid_area" />
             <item index="1" class="java.lang.String" itemvalue="grid-template-areas" />
+            <item index="2" class="java.lang.String" itemvalue="grid-area" />
+            <item index="3" class="java.lang.String" itemvalue="grid-template-columns" />
+            <item index="4" class="java.lang.String" itemvalue="grid-column-gap" />
+            <item index="5" class="java.lang.String" itemvalue="grid-row-gap" />
           </list>
         </value>
       </option>
@@ -17,7 +21,7 @@
     <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="7">
+          <list size="10">
             <item index="0" class="java.lang.String" itemvalue="nobr" />
             <item index="1" class="java.lang.String" itemvalue="noembed" />
             <item index="2" class="java.lang.String" itemvalue="comment" />
@@ -25,6 +29,9 @@
             <item index="4" class="java.lang.String" itemvalue="embed" />
             <item index="5" class="java.lang.String" itemvalue="script" />
             <item index="6" class="java.lang.String" itemvalue="head" />
+            <item index="7" class="java.lang.String" itemvalue="labas" />
+            <item index="8" class="java.lang.String" itemvalue="rytas" />
+            <item index="9" class="java.lang.String" itemvalue="diena" />
           </list>
         </value>
       </option>
