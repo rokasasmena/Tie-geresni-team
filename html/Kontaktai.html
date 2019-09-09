@@ -1,55 +1,105 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	  <title>Puslapio pavadinimas</title> 
-	  <meta charset="utf-8"> 
-		 
-	</head>
-	<body style="background-color:powderblue;">
-	<div>
-		 <form action="FORMA.php" >
-		 
-		<label for="fn" >Vardas:</label>
-		<input name="Vardas" type="text" id="fn" />
-		
-		<br> </br>
-		
-		<label for="fn" >Pavardė:</label>
-		<input name="Pavardė" type="text" id="fn" />
-		
-		<br> </br>
-		
-		<label for="zinute" >Žinutė man</label>
-		<br> </br>
-		<textarea
-			 name="message" rows="10" cols="30" id="zinute"/>
-		</textarea>
-		<br> </br>
-		
-		<input type="submit" value="KLAUSTI" style="height: 50 px; width: 100 px; left: 250; top: 250;">
-			</form>
-		<br> </br>
-			
-	</div>	
-			<form action="FORMA.php" >
-		 
-		<label for="fn" >Kortelės pin kodas:</label>
-		
-		<br> </br>
-		
-		<input name="Vardas" type="text" id="fn" />
-		
-		<br> </br>
-		
-		<label for="fn" >Asmens kodas:</label>
-		<input name="Pavardė" type="text" id="fn" />
-		
-		<br> </br>
-		
-		<br> </br>
-		
-		<input type="button" value="KLAUSTI" style="height: 50 px; width: 100 px; left: 250; top: 250;">
-			</form>	
-		
-	</body>
+<head>
+    <title>Klases darbas</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type=" text/css" href="/css/reset.css">
+    <link rel="stylesheet" type=" text/css" href="/css/klasesdarbas.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/test.js"></script>
+</head>
+<body>
+<div id="grid">
+    <div class="gridItem1">
+        <img src="https://images.pexels.com/photos/965622/pexels-photo-965622.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+             alt="">
+    </div>
+    <div class="gridItem2">
+        <div class="meniu-center">
+            <a href="index.html">Apie mane</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="#kontaktai">Kontaktai</a>
+        </div>
+    </div>
+    <div class="gridItem3">
+        <div class="login">
+            <a href="#login">Admin <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+    <div class="gridItem4">
+        <div class="skills">
+            <div class="skill html">HTML
+                <div class="skillProgress">
+                    <div class="progr"></div>
+                </div>
+            </div>
+            <div class="skill css">CSS
+                <div class="skillProgress">
+                    <div class="progr"></div>
+                </div>
+            </div>
+            <div class="skill js">JS
+                <div class="skillProgress">
+                    <div class="progr"></div>
+                </div>
+            </div>
+            <div class="skill php">PHP
+                <div class="skillProgress">
+                    <div class="progr"></div>
+                </div>
+            </div>
+            <div class="skill sql">SQL
+                <div class="skillProgress">
+                    <div class="progr"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gridItem5">
+        <main>
+            <h1>Pagrindinis puslapis</h1>
+
+            <p>Pirmas paragrafas</p>
+
+            <p>Maiklas Džefris Džordanas (angl. Michael Jeffrey Jordan; g. 1963 m. vasario 17 d.) – vienas žymiausių JAV
+                krepšininkų[1], žaidęs atakuojančio gynėjo pozicijoje.
+
+                Šešis kartus tapo NBA čempionu, 5 kartus buvo pripažintas NBA naudingiausiu sezono žaidėju, 6 kartus NBA
+                finalo naudingiausiu žaidėju. Žaidė Čikagos „Bulls“ ir vėliau Vašingtono „Wizards“ klubuose iki
+                profesionalo karjeros pabaigos 2003 m.
+                <input type="button" class="btn btn-secondary" value="Sudeti">
+                <input type="button" class="btn btn-secondary" value="Atimti">
+                <input type="button" class="btn btn-secondary" value="Dauginti">
+                <input type="button" class="btn btn-secondary" value="Dalinti">\
+
+
+            <div id="rez">Atsakymas.:</div>
+
+        </main>
+    </div>
+    <div class="gridItem6">
+        <h3>Naujausi darbai</h3>
+
+        <div class="darbas">
+            <img src="https://cdn.pixabay.com/photo/2018/06/07/04/48/shanghai-3459422_960_720.jpg" alt="Portfolio1">
+            </br>
+            <small>Mano paskutinis darbas</small>
+        </div>
+
+        <div class="darbas">
+            <img src="https://cdn.pixabay.com/photo/2019/08/23/18/24/lake-4426212_960_720.jpg" alt="Portfolio2">
+            </br>
+            <small>Mano kitas darbas</small>
+        </div>
+    </div>
+    <div class="gridItem7">
+        <span>Visos teises saugomos &copy;2019</span>
+    </div>
+    <div class="gridItem8">
+        <span>Sukurta: Roko Ašmenos</span>
+    </div>
+</div>
+</body>
+
 </html>
