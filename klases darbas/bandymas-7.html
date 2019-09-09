@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <script type="text/javascript" src="js/bandymas8.js"></script>
     <title>Užduotis</title>
     <meta charset="UTF-8">
 </head>
@@ -14,16 +15,17 @@
         JS LESSONS
     </p>
 
-    <!-- <script src="js/bandymas8.js"> -->
+    <!-- <input type="button" onclick="go()" value="Display JS Array"/> -->
 
-    <script language="javascript" type="text/javascript">
-         let myArray = new Array();
-         myArray[0] = "AAA";
-         myArray[1] = "BBB";
-         myArray[2] = "CCC";
-         for (var i=0; i<myArray.length; i++) {
-             document.write("Element " +i+ " contains: " +myArray[i]+ "<br />");
-         }
-    </script>
-</body>
-</html>
+     <script language="javascript" type="text/javascript">
+         PrintLTU_FlagColor();
+
+         let cars = ["Saab", "Volvo", "BMW"];
+         document.write(cars[0]);
+
+         PrintStudent();
+     </script>
+
+
+ </body>
+ </html>
